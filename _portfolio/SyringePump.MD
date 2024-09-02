@@ -13,13 +13,13 @@ gallery:
 
 ## Overview
 
-The Syringe Pump Project was developed as part of the DF 2100: Rapid Prototyping course in Fall 2023. Our team, ABS Absurdists, consisting of Chloe Nixon, Tommy Pennington, Cooper Danzig, and Clark Zhang, designed and constructed a laboratory-grade syringe pump capable of dispensing fluid at a calculated and constant flow rate.
+The Syringe Pump Project was developed as part of the DF 2100: Rapid Prototyping course in Fall 2023. My team, the ABS Absurdists, designed and constructed a laboratory-grade syringe pump capable of dispensing fluid at a calculated and constant flow rate.
 
 This automated linear actuator-controlled syringe pump offers precise and accurate flow rates over extended periods, minimizing cross-contamination and allowing for the administration of viscous liquids. The pump is primarily designed for use in medical, biomedical, and chemical contexts, where exact fluid dispensation is crucial.
 
 ## Gallery
 
-{% include gallery caption="Original 3D render and final product" %}
+{% include gallery caption="Original 3D render, final product, and circuit schematic." %}
 
 ## Features
 
@@ -35,6 +35,7 @@ This automated linear actuator-controlled syringe pump offers precise and accura
 - Limit switch for automatic stop at syringe empty state
 - Water-resistant enclosure for electronics
 - Custom 3D printed components
+- Minimum flow rate of 7.06E-5 (with 5 mL syringe)
 - Flow rates up to 10.63 mL/min (with 20 mL syringe)
 
 ## 3D Model
@@ -46,13 +47,16 @@ This automated linear actuator-controlled syringe pump offers precise and accura
 | Component | Quantity | Purpose |
 |-----------|----------|---------|
 | Arduino UNO | 1 | Main controller |
-| Stepper Motor | 1 | Drive mechanism |
-| Lead Screw | 1 | Linear motion |
-| Linear Rod | 1 | Guidance and stability |
+| Small Breadboard | 1 | Electronics |
+| A4988 Stepper Driver | 1 | Electronics |
+| Nema 17 Stepper Motor | 1 | Drive mechanism |
+| 250 mm Lead Screw with 2 mm pitch and 8 mm lead | 1 | Linear motion |
+| 1/4" x 8mm Flexible Coupling | 1 | Rotary shaft connection |
+| 200 mm Linear Rod with 8mm diameter | 1 | Guidance and stability |
 | Flexible Coupler | 1 | Motor to lead screw connection |
 | Flange Bearings | 2 | Lead screw support |
 | Linear Bearing | 1 | Carriage movement |
-| RQ-65D Power Supply | 1 | Power source |
+| MEAN WEL RQ-65D Power Supply | 1 | Power source |
 | Common Cathode LED | 1 | Status indicator |
 | Latching Push Buttons | 2 | Power and pause control |
 | Momentary Push Buttons | 2 | Direction control |
