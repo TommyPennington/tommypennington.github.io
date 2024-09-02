@@ -1,6 +1,6 @@
 ---
 title: "Automated Syringe Pump"
-excerpt: "A linear-actuator controlled syringe pump"
+excerpt: "A linear actuator-controlled syringe pump"
 header:
   image: assets/img/Syringe Pump Final.jpg
   teaser: assets/img/Syringe Pump Final.jpg
@@ -54,8 +54,9 @@ This automated linear actuator-controlled syringe pump offers precise and accura
 | 1/4" x 8mm Flexible Coupling | 1 | Rotary shaft connection |
 | 200 mm Linear Rod with 8mm diameter | 1 | Guidance and stability |
 | Flexible Coupler | 1 | Motor to lead screw connection |
+| Lead Screw Nut | 1 | Carriage movement |
 | Flange Bearings | 2 | Lead screw support |
-| Linear Bearing | 1 | Carriage movement |
+| LM8UU Linear Bearing for 8 mm Diameter Rod| 2 | Carriage movement |
 | MEAN WEL RQ-65D Power Supply | 1 | Power source |
 | Common Cathode LED | 1 | Status indicator |
 | Latching Push Buttons | 2 | Power and pause control |
