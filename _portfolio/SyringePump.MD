@@ -35,7 +35,7 @@ This automated linear actuator-controlled syringe pump offers precise and accura
 - Limit switch for automatic stop at syringe empty state
 - Water-resistant enclosure for electronics
 - Custom 3D printed components
-- Minimum flow rate of 7.06E-5 (with 5 mL syringe)
+- Minimum flow rate of 7.06E-5 ml/min (with 5 mL syringe)
 - Flow rates up to 10.63 mL/min (with 20 mL syringe)
 
 ## 3D Model
