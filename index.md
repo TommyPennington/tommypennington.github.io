@@ -8,19 +8,19 @@ header:
   actions:
     - label: "My Projects"
       url: "/portfolio/"
-excerpt: "Dr. David Florian is an engineer with a passion for teaching and the open-source community. His area of expertise is 3D printing, with an emphasis on large format pellet extrusion and selective laser sintering."
+excerpt: "From founding innovative companies to leading the only undergraduate nuclear fusion research initiative in the United States to backing next-generation ideas, I constantly seek to challenge myself and build new things that make an impact."
 feature_row:
-  - image_path: assets/img/CNC-Mill-Thumbnail.jpg
-    alt: "CNC Mill"
-    title: "Custom CNC Milling Machine"
-    excerpt: "Built for fabricating aluminum and steel parts."
-  - image_path: assets/img/Plasma-Cutter-Banner.jpg
-    alt: "placeholder image 2"
-    title: "DIY Plasma Cutter"
-    excerpt: "A hot plasma stream slices through sheet metal."
-  - image_path: assets/img/Zidex-Thumbnail.jpg
-    title: "Bespoke IDEX 3D Printer"
-    excerpt: "Multimaterial printing. "
+  - image_path: assets/img/IMG_2302 (1).JPG
+    alt: "Wave Kiosk"
+    title: "Identity Ticketing Startup"
+    excerpt: "I founded and scaled Wave, an entertainment technology company."
+  - image_path: assets/img/IMG_3422.JPG
+    alt: "Vanderbilt Fusion Reactor"
+    title: "Vanderbilt Fusion Project"
+    excerpt: "I launched a 60-person research initiative to build an inertial electrostatic confinement fusion device."
+  - image_path: assets/img/Tommy Welding.JPG
+    title: "Metal Fabrication & Building"
+    excerpt: "I'm passionate about building hands-on projects, and I'm an experienced welder, blacksmith, and machinist."
 ---
 
 {% include feature_row %}
