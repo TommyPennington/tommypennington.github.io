@@ -19,7 +19,13 @@ This automated linear actuator-controlled syringe pump offers precise and accura
 
 ## Gallery
 
+{% include gallery caption="Original 3D render and final product" %}
 
+feature_row:
+  - image_path: assets/img/IMG_2302 (1).JPG
+    alt: "Wave Kiosk"
+    title: "Identity Ticketing Startup"
+    excerpt: "I founded and scaled Wave, an entertainment technology company."
 
 ## Features
 
@@ -103,5 +109,3 @@ You can find the full Arduino code in our [GitHub repository](https://github.com
    - Red: Syringe empty or limit switch activated
 
 Note: When the syringe is empty, the pump will automatically stop. Use the direction control buttons to reset the pump position before loading a new syringe.
-
-{% include gallery caption="Original 3D render and final product" %}
