@@ -2,8 +2,8 @@
 title: "Automated Syringe Pump"
 excerpt: "A linear-actuator controlled syringe pump"
 header:
-  image: /assets/img/LF3DP-Banner-2.jpg
-  teaser: /assets/img/Large-Format-3D-Printer-Thumbnail.png
+  image: assets/img/IMG_1199.JPG
+  teaser: assets/img/IMG_1199.JPG
 gallery:
   - image_path: assets/img/Syringe Pump Render.png
   - image_path: assets/img/IMG_1199.JPG
@@ -102,3 +102,5 @@ You can find the full Arduino code in our [GitHub repository](https://github.com
    - Red: Syringe empty or limit switch activated
 
 Note: When the syringe is empty, the pump will automatically stop. Use the direction control buttons to reset the pump position before loading a new syringe.
+
+{% include gallery caption="Original 3D render and final product" %}
