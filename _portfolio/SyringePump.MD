@@ -7,6 +7,7 @@ header:
 gallery:
   - image_path: assets/img/Syringe Pump Render.png
   - image_path: assets/img/Syringe Pump Final.jpg
+  - image_path: assets/img/Syringe Pump Circuit Schematic.png
    
 ---
 
