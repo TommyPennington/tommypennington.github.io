@@ -21,8 +21,6 @@ This automated linear actuator-controlled syringe pump offers precise and accura
 
 {% include gallery caption="Original 3D render and final product" %}
 
-![Test](assets/img/Syringe Pump Render.png)
-
 ## Features
 
 - Accommodates syringes between 5-20 mL
@@ -60,7 +58,9 @@ This automated linear actuator-controlled syringe pump offers precise and accura
 | Momentary Push Buttons | 2 | Direction control |
 | Rotary Potentiometer | 1 | Flow rate control |
 | Limit Switch | 1 | End-of-travel detection |
-| Aluminum Extrusion | 1 | Structural support |
+| Aluminum Extrusion | 1 | Structural support & mount |
+| M5 Machine Screws | 12 | Case assembly |
+| M5 Heat Set Inserts | 12 | Case assembly |
 
 ## Custom 3D Printed Components
 
@@ -74,7 +74,7 @@ This automated linear actuator-controlled syringe pump offers precise and accura
 | Enclosure Base | PLA | Houses electronics |
 | Front Panel | PLA | Holds user interface components |
 | Enclosure Top | PLA | Secures aluminum extrusion |
-| Enclosure Walls | PLA | Completes the protective casing |
+| Back Panel | PLA | Completes the protective casing |
 
 ## Arduino Code
 
