@@ -66,6 +66,7 @@ This automated linear actuator-controlled syringe pump offers precise and accura
 | Aluminum Extrusion | 1 | Structural support & mount |
 | M5 Machine Screws | 12 | Case assembly |
 | M5 Heat Set Inserts | 12 | Case assembly |
+| O-Ring for M5 Screw | 4 | Waterproofing enclosure top |
 
 ## Custom 3D Printed Components
 
