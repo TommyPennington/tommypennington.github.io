@@ -8,7 +8,7 @@ header:
   actions:
     - label: "My Projects"
       url: "/portfolio/"
-excerpt: "From founding innovative companies to leading the only undergraduate nuclear fusion research initiative in the United States to backing next-generation ideas, I constantly seek to challenge myself and build new things that make an impact."
+excerpt: "Welcome to my digital portfolio! From founding innovative companies to leading the only undergraduate nuclear fusion research initiative in the United States to backing next-generation ideas, I constantly seek to challenge myself and build new things that make an impact. I've showcased some of my top projects here."
 feature_row:
   - image_path: assets/img/IMG_2302 (1).JPG
     alt: "Wave Kiosk"
