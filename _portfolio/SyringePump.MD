@@ -2,11 +2,11 @@
 title: "Automated Syringe Pump"
 excerpt: "A linear-actuator controlled syringe pump"
 header:
-  image: assets/img/IMG_1199.JPG
-  teaser: assets/img/IMG_1199.JPG
+  image: assets/img/Syringe Pump Final.jpg
+  teaser: assets/img/Syringe Pump Final.jpg
 gallery:
   - image_path: assets/img/Syringe Pump Render.png
-  - image_path: assets/img/IMG_1199.JPG
+  - image_path: assets/img/Syringe Pump Final.jpg
    
 ---
 
