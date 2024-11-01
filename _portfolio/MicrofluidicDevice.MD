@@ -2,12 +2,12 @@
 title: "Microfluidic PFF Device"
 excerpt: "Pinched Flow Fractionation Device for Particle Sorting"
 header:
-  image: assets/img/Syringe Pump Final.jpg
-  teaser: assets/img/Syringe Pump Final.jpg
+  image: assets/img/IMG_5258.JPG
+  teaser: assets/img/IMG_5258.JPG
 gallery:
-  - image_path: assets/img/Syringe Pump Render.png
-  - image_path: assets/img/Syringe Pump Final.jpg
-  - image_path: assets/img/Syringe Pump Circuit Schematic.png
+  - image_path: assets/img/IMG_5245.JPG
+  - image_path: assets/img/IMG_5248.jpg
+  - image_path: assets/img/IMG_5257.JPG
    
 ---
 
