@@ -33,7 +33,7 @@ The applications of PFF span biological/healthcare research and industrial domai
 
 ## Gallery
 
-{% include gallery caption="Original 3D render, final product, and circuit schematic." %}
+{% include gallery caption="Side view of final device; cast chip (above) and printed mold (below); testing setup with view of particles and spike." %}
 
 ## Design Constraints
 
@@ -53,7 +53,7 @@ The applications of PFF span biological/healthcare research and industrial domai
 
 ### 1. Device Specifications
 
-The device was designed to prevent clogging, maximize particle separation resolution, and effectively collect the particles based on the final vertical position of the laminar streams. The ultimate design was for a device with two inlets (one for the particle solution and one for the buffer), a narrow pinched section (to enable particle alignment along position-based streamlines), an expansion section with a sharp expansion angle of 105 degrees (to minimize turbulence while maximizing particle separation), two collection ports (an upper one for the 165 μm particles and a lower one for the 550 μm particles), and a drain (for the buffer solution) at the bottom of the expansion area.
+The device was designed to prevent clogging, maximize particle separation resolution, and effectively collect the particles based on the final vertical position of the laminar streams. The ultimate design was for a device with two inlets (one for the particle solution and one for the buffer), a narrow pinched section (to enable particle alignment along position-based streamlines), an expansion section with a sharp expansion angle of 105 degrees (to minimize turbulence while maximizing particle separation), two collection ports (an upper one for the 165 μm particles and a lower one for the 550 μm particles), and a drain (for the buffer solution) at the bottom of the expansion area. Critically, a spike was positioned at 14.79 mm away from the wall (halfway between the two particle streamlines) to separate the particle flows and direct them to their ports. The drain was included to vent excess pressure, and was included in several high-performing designs in the literature. 
 
 #### Physical Dimensions
 - Pinch region cross-section: 1.375 × 1.375 mm
@@ -166,19 +166,17 @@ Q = 49.6 mL/hr
 The bottom of the mold (i.e., the face that will contact the glass slides) must be perfectly flat. Therefore, this surface needs to be parallel to the resin vat in order to prevent layer lines.
 
 ### Post Processing
-1. Wash the device for 5 minutes on the print bed in the FormWash and then remove it from the bed and wash it for another 5 minutes in fresh IPA (the stationary bath to right of the FormWash). Do not exceed 10 total minutes of wash time as the resin can absorb the IPA.
+1.The device was washed for 5 minutes on the print bed in the FormWash and then removed from the bed and washed for another 5 minutes in fresh IPA (the stationary bath to the right of the FormWash). Total rinse time was limited to under 10 total minutes of wash time as the resin can absorb the IPA.
 
-2. Let your device dry by leaning it upside down for 30 minutes before curing. Do not let the IPA pool inside the device while drying. Confirm that the inside of the mold has a homogenous sheen. Glossy areas indicate that uncured resin is still present, which will inhibit the crosslinking of PDMS.
+2. The device was left to dry by leaning it upside down for 30 minutes before curing, while ensuring that IPA did not pool inside the device while drying. It was confirmed that the inside of the mold had a homogenous sheen. Glossy areas indicate that uncured resin is still present, which will inhibit the crosslinking of PDMS. Special attention was paid to ensure that the inside of the uncured mold wasn't touched, since using a finger or paper towel to remove uncured resin will increase the surface roughness of the mold. This roughness will transfer to the PDMS device, likely causing sealing issues.
 
-3. **DO NOT TOUCH THE INSIDE OF UNCURED MOLD.** Using your finger or paper towel to remove uncured resin will increase the surface roughness of the mold. This roughness will transfer to the PDMS device, likely causing sealing issues.
+3. Compressed air was used to gently blow off any debris between the uFluidic's channels.
 
-4. Gently blow off any debris between your uFluidic's channels. With safety glasses on, use the compressed air (orange knob next to the fume hood) to dislodge any foreign particles/resin that may have been picked up during the washing step.
+5. A 60 second surface cure with supports on was performed. Curing the model for long durations can cause it to warp. Further, the mold does not require robust mechanical properties to function. 
 
-5. Perform a 60 second surface cure with supports on. Curing the model for long durations can cause it to warp. Further, the mold does not require robust mechanical properties to function. Therefore, we will cure either the black or high-temp resin for 10 seconds at room temperature (no heat).
-
-6. Remove support material. Once again be careful not to touch the inside of the mold.
+6. Support material was carefully removed. 
 
 ### Casting
-1. Coating with parylene
-2. Casting with PDMS
-3. Bonding with glass slide
+1. The printed mold was coated with parylene.
+2. The device was cast with PDMS.
+3. The cast device was plasma bonded with a glass slide.
