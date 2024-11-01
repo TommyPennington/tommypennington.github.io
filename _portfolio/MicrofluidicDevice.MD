@@ -166,7 +166,8 @@ Q = 49.6 mL/hr
 The bottom of the mold (i.e., the face that will contact the glass slides) must be perfectly flat. Therefore, this surface needs to be parallel to the resin vat in order to prevent layer lines.
 
 ### Post Processing
-1.The device was washed for 5 minutes on the print bed in the FormWash and then removed from the bed and washed for another 5 minutes in fresh IPA (the stationary bath to the right of the FormWash). Total rinse time was limited to under 10 total minutes of wash time as the resin can absorb the IPA.
+
+1. The device was washed for 5 minutes on the print bed in the FormWash and then removed from the bed and washed for another 5 minutes in fresh IPA (the stationary bath to the right of the FormWash). Total rinse time was limited to under 10 total minutes of wash time as the resin can absorb the IPA.
 
 2. The device was left to dry by leaning it upside down for 30 minutes before curing, while ensuring that IPA did not pool inside the device while drying. It was confirmed that the inside of the mold had a homogenous sheen. Glossy areas indicate that uncured resin is still present, which will inhibit the crosslinking of PDMS. Special attention was paid to ensure that the inside of the uncured mold wasn't touched, since using a finger or paper towel to remove uncured resin will increase the surface roughness of the mold. This roughness will transfer to the PDMS device, likely causing sealing issues.
 
