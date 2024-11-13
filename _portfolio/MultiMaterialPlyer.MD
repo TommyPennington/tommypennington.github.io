@@ -1,6 +1,6 @@
 ---
 title: "Multi-Material Pliers"
-excerpt: "Custom 3D-Printed Pliers w/ 2 Materials"
+excerpt: "Custom 3D-Printed Pliers with 2 Materials"
 header:
   image: assets/img/Mark III.jpg
   teaser: assets/img/Mark III.jpg
