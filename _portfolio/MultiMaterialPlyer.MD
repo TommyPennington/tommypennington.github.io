@@ -2,182 +2,116 @@
 title: "Multi-Material Pliers"
 excerpt: "Custom 3D-Printed Pliers w/ 2 Materials"
 header:
-  image: assets/img/IMG_5258.JPG
-  teaser: assets/img/IMG_5258.JPG
+  image: assets/img/Mark III.jpg
+  teaser: assets/img/Mark III.jpg
 gallery:
-  - image_path: assets/img/IMG_5245.JPG
-  - image_path: assets/img/IMG_5248.jpg
-  - image_path: assets/img/IMG_5257.JPG
+  - image_path: assets/img/Mark 1.jpg
+  - image_path: assets/img/Mark II.JPG
+  - image_path: assets/img/Mark III.jpg
    
 ---
 
-# Design and Analysis of a Pinched Flow Fractionation Device for Large Particle Separation
+# Project Overview
 
-## Introduction
+For this project, I designed and 3D-printed functional needle-nose pliers optimized for handling through-hole resistors. The design incorporates both rigid PLA for the handles and jaws, along with flexible TPU for the spring mechanism, creating a self-returning mechanism where squeezing the handles temporarily closes the jaws of the pliers, and releasing the handles causes the TPU spring to return to its normal non-stretched state, and thus open the jaws. 
 
-Pinched flow fractionation (PFF) has emerged as a powerful microfluidic technique for continuous, size-based particle separation that utilizes the characteristics of laminar flow at the microscale within a microfluidic chip or system. This passive separation method requires no external fields and offers advantages including operational simplicity, continuous processing capability, and compatibility with various particle types (Sajeesh and Sen, 2014).
+A rapid iterative design process was used to design by the form and dimensions of the pliers. Multiple versions of the spring were printed to determine the optimal height, clearance, and infill parameters. Additionally, the handle designs were updated to improve ergonomics and functionality. Lastly, the jaws themselves were improved to enable them to pick up the small resistors more easily and effectively. 
 
-The fundamental principle of PFF relies on the precise manipulation of fluid streams carrying particles to be sorted. The particle-laden sample stream is hydrodynamically focused by a particle-free sheath flow (a laminar, "high speed" flow of buffer solution) against a channel wall in a constricted "pinched" segment. Due to the laminar flow conditions, particles align their centers of mass along specific streamlines based on their size, with larger particles forced to align farther from the wall compared to smaller particles. When these streams enter a sudden expansion region, the aligned particles follow diverging streamlines according to their initial positions, enabling spatial separation (Yamada et al., 2004). The smaller particles follow a trajectory closer to the wall of the expansion section, whereas the larger particles tend to deflect less aggressively and tend closer toward the centerline.
+Ultimately, this project illustrated the power of combining multiple materials to create functional parts or tools by leveraging the material properties of different plastics and the capability to print complex designs quickly and cheaply. 
 
-Critical design and operational parameters govern PFF performance. The width ratio between the pinched and expanded segments (the expansion ratio) determines the degree of stream spreading and, therefore, separation resolution. The flow rate ratio between sample and sheath flows must be carefully controlled to achieve proper particle alignment. The pinched segment geometry, particularly its width and the angle of the pinch-to-expansion transition, significantly impacts separation efficiency. The pinched section should be as narrow as possible while still enabling clog-free operation, and the interplay between the width of the section, the overall flow rate, and the buffer vs. particle solution flow rates influence both the resulting shear forces (which drives particle alignment) and the Reynold's number (which indicates the degree of laminar flow, and thus separation stability) (Yamada et al., 2004).
+## Final Multi-Material Plyers
+![Pliers in Action](/assets/img/PlyerGIF.gif)
 
-For particles perfectly focused against the channel wall in the pinched segment, their effluent position (Y₀) in the expanded region can be predicted by:
+# Background on Print-in-Place Technology
 
-Y₀ = (wp - D/2)(w₀/wp)
+Print-in-place (PIP) technology enables 3D printing components that are "ready to go" without additional post-processing or assembly. Crucially, print-in-place allows you to create mechanical parts (like joints, hinges, and linkages) that are integrated into each other during the printing process itself. Typically, print-in-place designs rely on careful clearances between moving parts printed in a single material (since the clearance gap enables separation of the components, even if one component is inside the other - like a pin in a hinge). 
 
-where wp is the pinched segment width, w₀ is the expanded segment width, and D is the particle diameter (Yamada et al., 2004). This relationship enables the design of devices for specific separation applications.
+Print-in-place technology has revolutionized 3D printing applications across various fields:
+* Robotics: Joint mechanisms and grippers
+* Consumer Products: Articulating toys, adjustable mounts, and tools
+* Medical Devices: Forceps and clamps
+* Educational Models: Articulating anatomical models
 
-In microfluidic device fabrication, SLA (stereolithography) resin printing enables rapid prototyping of molds with complex 3D geometries that would be prohibitively expensive with traditional photolithography techniques due to the specialized equipment required. These printed molds are coated with parylene before PDMS casting to prevent the SLA resin from inhibiting PDMS curing and to ensure clean separation after curing. The parylene coating creates a uniform, pinhole-free barrier that prevents any uncured resin residues from leaching into the PDMS. PDMS is chosen as the final device material because it offers several crucial advantages: it's biocompatible and non-toxic (unlike most 3D printing resins), optically transparent for microscopy, and can form strong bonds with glass (the slide material). Additionally, PDMS replicates microscale features with high fidelity and allows multiple microfluidic devices to be cast from the same printed mold.
+However, these PIP parts can have rough movement due to printing irregularities or flaws. Fortunately, an alternate PIP approach exists to enable movement: multi-material printing. By combining a flexible plastic like TPU with a rigid plastic like PLA or ABS, you can print a flexible part as one continuous print using specialized printers. 
 
-The applications of PFF span biological/healthcare research and industrial domains. The method has been demonstrated for separation of synthetic particles, blood cells, cancer cells, and droplets. PFF devices can achieve high-throughput processing while maintaining separation resolution, making them promising for both analytical and preparative applications. However, challenges remain in optimizing designs for specific applications and scaling up throughput while maintaining separation efficiency.
+# Design Process
+
+## Goal & Initial Concept
+
+For this project, the goal was to replicate print-in-place multi-material printing by printing parts in two different materials and then press-fitting them together. 
+
+The pliers were designed with three main components:
+* Upper and lower handles (identical)
+* Upper and lower jaws (identical)
+* TPU spring element
+
+To join the handles and jaws to the spring, I used dovetail joints for a secure press fit. 
+
+To design the pliers, are created three different prototypes through rapid printing to change the design and the dimensions. 
+
+## Key Features
+* Self-returning mechanism requires no manual reset
+* Precise jaw alignment for consistent gripping
+* Able to pick up small resistors
+* Ergonomic handle design
+* Tool-free assembly and disassembly (press-fit)
+
+## Spring Mechanism
+
+I designed a square TPU spring to function as the joint between the handles and the jaws (the pivot point in conventional spring). The spring went through multiple revisions:
+
+**Version 1**: Thin 4 mm height spring, with thick rectangular cutouts (manually designed in cad). This spring used 1 dovetail per side, with 0.2 mm clearance. Ultimately, it was too stiff to function, and the clearance was too wide to enable press fit. 
+
+**Version 2**: Infill-controlled, 7 mm tall spring without any dovetail clearance, but with 3 dovetails per side. Using the infill to generate the rectangular cutouts (described below) provided the correct thickness, and increasing the height and number of dovetails made the joint more secure. However, it was too tight to press fit without any clearance. 
+
+**Final Product**: Added a 0.15 mm offset to the dovetails. This enabled a secure press fit connection, and the spring functioned as intended. 
+
+## Handles
+
+I used rigid PLA to create the handles. The handle geometry went through several revisions to provide the proper leverage, spacing, and ergonomics:
+
+**Version 1**: Medium-length handles with medium spacing. When attached to the spring, the handles were too close together to provide enough leverage.
+
+**Version 2**: Long-length handles with wide spacing. This was a significant improvement, but the flexible spring made the pliers too wobbly. I also I increased the height to 7 mm to match the spring.
+
+**Final Product**: Kept the wide spacing but shortened the length to the minimum ergonomic length which made it much more compact. 
+
+## Jaws
+
+I used rigid PLA to create the jaws. Here, the jaws went through one major revision to enable them to pick up the resistors:
+
+**Version 1**: Medium-length jaws with a rectangular "contact pad" jutting downward. The flat side of the pad would hit the surface first, before the pads could close around the small restor. 
+
+**Version 2 & Final Product**: Short-length jaws with sharp tips. The sharper tips were successfully able to pick up the resistors. 
+
 
 ## Gallery
+{% include gallery caption="Version 1, Version 2, and Final Product." %}
 
-{% include gallery caption="Side view of final device; cast chip (above) and printed mold (below); testing setup with view of particles and spike." %}
+## CAD Model
+<iframe src="https://vanderbilt643.autodesk360.com/shares/public/SH286ddQT78850c0d8a470ff057255634bd7?mode=embed" width="800" height="600" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
 
-## Design Constraints
+# Technical Specifications
 
-### Printer Specifications
-- Laser Spot Size (i.e., Minimum Feature Size): 85 μm
-- Minimum XY Resolution: 25 μm
-- Minimum Z Resolution: 25 μm
-- Build volume: (145 × 145 × 185) mm
+## Pliers Dimensions
+* Overall Length: 189mm
+* Jaw Length: 45.8mm
+* Core Spring Dimensions: 30mm x 30mm
+* Maximum Jaw Opening: 7.325mm
+* Standard Grip Width: 88.7mm
+* Handle Length: 120mm
+* Handle Thickness: 19.4mm
 
-### Sorting Design Specifications
-- The device, when molded, must be precisely 25 mm wide by 75 mm long to sit flush on a common microscope slide
-- Tall and thin components are likely to break off during printing, post-processing, or demolding. Aspect ratio is the height to cross-sectional width or length (whichever is smaller) of a printed feature. Keep the aspect ratio less than 4:1
-- For inlets and outlets, use a 1.5 mm post extruded above the top of the mold. This will create a hole that is compatible with the microfluidic barb
-- Channels should be at least 4 mm away from the edge of the device or else leaking will occur
+## Materials Used
+* Ridgid Handles and Jaws: PLA 
+* Spring: TPU 95A 
 
-## Device Design
+## Special Print Settings
 
-### 1. Device Specifications
-
-The device was designed to prevent clogging, maximize particle separation resolution, and effectively collect the particles based on the final vertical position of the laminar streams. The ultimate design was for a device with two inlets (one for the particle solution and one for the buffer), a narrow pinched section (to enable particle alignment along position-based streamlines), an expansion section with a sharp expansion angle of 105 degrees (to minimize turbulence while maximizing particle separation), two collection ports (an upper one for the 165 μm particles and a lower one for the 550 μm particles), and a drain (for the buffer solution) at the bottom of the expansion area. Critically, a spike was positioned at 14.79 mm away from the wall (halfway between the two particle streamlines) to separate the particle flows and direct them to their ports. The drain was included to vent excess pressure, and was included in several high-performing designs in the literature. 
-
-#### Physical Dimensions
-- Pinch region cross-section: 1.375 × 1.375 mm
-- Pinch region length: 5.5 mm
-- Expansion region width: 17.0 mm
-- Channel height maintained throughout: 1.375 mm
-- Width amplification ratio: 12.36
-
-#### Position-Based Separation in Pinched Flow Fractionation
-The fundamental principle of pinched flow fractionation relies on the alignment of particles against the channel wall in the pinched segment, followed by position amplification in the expansion region. The final position of a particle (y) in the expanded region is given by Y₀ = (wp - D/2)(w₀/wp) where wp is the pinched segment width, w₀ is the expanded segment width, and D is the particle diameter. All feature sizes were selected for compatibility with the printer resolution (described under Design Constraints), and to ensure printability.
-
-#### Particle Stream Positions
-
-**Small Particles (DP = 165 μm):**
-```
-y₁ = (1.375 - 0.165/2)(17.0/1.375)
-   = (1.375 - 0.0825) × 12.36
-   = 1.2925 × 12.36
-   = 15.98 mm from inner wall
-```
-
-**Large Particles (DP = 550 μm):**
-```
-y₂ = (1.375 - 0.550/2)(17.0/1.375)
-   = (1.375 - 0.275) × 12.36
-   = 1.100 × 12.36
-   = 13.60 mm from inner wall
-```
-
-**Separation Distance:**
-Δy = y₁ - y₂ = 15.98 - 13.60 = 2.38 mm
-
-#### Collection Ports (from opposite alignment wall)
-- 165 μm particle collection: 15.98 mm
-- 550 μm particle collection: 13.6 mm
-- Divider position: 14.79 mm
-- Separation distance: 2.38 mm
-
-#### Channel-to-Particle Ratios
-- Channel width / Large particle = 1.375 mm / 0.550 mm = 2.50
-- Channel width / Small particle = 1.375 mm / 0.165 mm = 8.33
-- Minimum clearance (large particle): 825 μm
-
-These ratios were selected to ensure adequate clearance and a margin of at least 2.5x to prevent clogging.
-
-## 3D Model
-
-<iframe src="https://vanderbilt643.autodesk360.com/shares/public/SH286ddQT78850c0d8a47960462e8f3cf892?mode=embed" width="800" height="600" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
-
-### 2. Operating Parameters
-
-#### Reynolds Number Selection (Re = 10)
-The Reynolds number is calculated using: Re = (ρvDₕ)/μ
-where:
-- ρ = 997 kg/m³ (water density)
-- v = flow velocity (m/s)
-- Dₕ = hydraulic diameter (m)
-- μ = 0.001 Pa·s (water viscosity)
-
-Re = 10 was chosen because:
-- Maintains laminar flow (Re < 2000)
-- Provides sufficient inertial effects for focusing
-- Results in practical flow velocities
-- Ensures stable particle trajectories
-
-#### Flow Rate Ratio (6:1 Buffer:Sample)
-Based on original Yamada et al. research, 6:1 ratio ensures:
-- Particle stream width < smallest particle diameter
-- Complete alignment to channel wall
-- Stable particle focusing
-- Sufficient buffer for separation
-
-### 3. Flow Rate Calculations
-
-#### Step 1: Calculate Hydraulic Diameter
-```
-Dₕ = (2wh)/(w+h) where w = h = 1.375 mm
-Dₕ = (2 × 1.375 × 1.375)/(1.375 + 1.375)
-Dₕ = 1.375 mm = 1.375 × 10⁻³ m
-```
-
-#### Step 2: Calculate Required Velocity for Re = 10
-```
-v = (Re × μ)/(ρ × Dₕ)
-v = (10 × 0.001)/(997 × 1.375 × 10⁻³)
-v = 7.27 × 10⁻³ m/s = 7.27 mm/s
-```
-
-#### Step 3: Calculate Total Flow Rate
-```
-Q = v × A where A = w × h
-Q = 7.27 × 10⁻³ × (1.375 × 10⁻³ × 1.375 × 10⁻³)
-Q = 1.377 × 10⁻⁸ m³/s
-Q = 49.6 mL/hr
-```
-
-#### Step 4: Calculate Individual Flow Rates
-- Buffer flow rate = (6/7)Q = 42.5 mL/hr = 0.703 mL/min
-- Particle solution flow rate = (1/7)Q = 7.1 mL/hr = 0.118 mL/min
-
-**Additional Parameters:**
-- Q (flow rate): 0.821 mL/min
-- Volume of device: 0.83 mL
-- Time to transit: 1.01 minute
-
-## Device Fabrication
-
-### Printing
-#### SLS Resin Printing
-The bottom of the mold (i.e., the face that will contact the glass slides) must be perfectly flat. Therefore, this surface needs to be parallel to the resin vat in order to prevent layer lines.
-
-### Post Processing
-
-1. The device was washed for 5 minutes on the print bed in the FormWash and then removed from the bed and washed for another 5 minutes in fresh IPA (the stationary bath to the right of the FormWash). Total rinse time was limited to under 10 total minutes of wash time as the resin can absorb the IPA.
-
-2. The device was left to dry by leaning it upside down for 30 minutes before curing, while ensuring that IPA did not pool inside the device while drying. It was confirmed that the inside of the mold had a homogenous sheen. Glossy areas indicate that uncured resin is still present, which will inhibit the crosslinking of PDMS. Special attention was paid to ensure that the inside of the uncured mold wasn't touched, since using a finger or paper towel to remove uncured resin will increase the surface roughness of the mold. This roughness will transfer to the PDMS device, likely causing sealing issues.
-
-3. Compressed air was used to gently blow off any debris between the uFluidic's channels.
-
-5. A 60 second surface cure with supports on was performed. Curing the model for long durations can cause it to warp. Further, the mold does not require robust mechanical properties to function. 
-
-6. Support material was carefully removed. 
-
-### Casting
-1. The printed mold was coated with parylene.
-2. The device was cast with PDMS.
-3. The cast device was plasma bonded with a glass slide.
+**TPU Spring:**
+* Infill Type: Rectilinear
+* Infill Angle: 90° (perpendicular to spring walls)
+* Fill Density: 12%
+* Perimeters: 4
+* Solid Top Layers: None
+* Solid Bottom Layers: None
