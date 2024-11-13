@@ -91,9 +91,10 @@ I used rigid PLA to create the jaws. Here, the jaws went through one major revis
 ## CAD Model
 <iframe src="https://vanderbilt643.autodesk360.com/shares/public/SH286ddQT78850c0d8a470ff057255634bd7?mode=embed" width="800" height="600" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
 
+
 # Technical Specifications
 
-## Pliers Dimensions
+## Plier Dimensions
 * Overall Length: 189 mm
 * Jaw Length: 45.8 mm
 * Core Spring Dimensions: 30 mm x 30 mm
