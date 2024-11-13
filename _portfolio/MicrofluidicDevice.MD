@@ -35,6 +35,9 @@ The applications of PFF span biological/healthcare research and industrial domai
 
 {% include gallery caption="Side view of final device; cast chip (above) and printed mold (below); testing setup with view of particles and spike." %}
 
+## Working Microfluidic Device
+<iframe width="1280" height="720" src="https://www.youtube.com/embed/--6JoKgJHCo" title="Kira&#39;s Pinch Flow Fractination Device" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 ## Design Constraints
 
 ### Printer Specifications
