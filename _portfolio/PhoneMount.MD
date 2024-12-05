@@ -2,12 +2,12 @@
 title: "Bicycle Phone Mount"
 excerpt: "Top-Down Modeling Project: Bicycle Phone Mount"
 header:
-  image: assets/img/PhoneMount2.JPG
-  teaser: assets/img/PhoneMount2.JPG
+  image: assets/img/FinalPhoneHolderDemo.png
+  teaser: assets/img/FinalPhoneHolderDemo.png
 gallery:
+  - image_path: assets/img/FinalPhoneHolderDemo.png
   - image_path: assets/img/PhoneMount2.JPG
-  - image_path: assets/img/PhoneMount1.JPG
-  - image_path: aassets/img/PhoneMount2.JPG
+  - image_path: aassets/img/PhoneMount1.JPG
    
 ---
 
