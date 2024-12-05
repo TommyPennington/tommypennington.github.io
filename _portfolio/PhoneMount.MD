@@ -35,7 +35,7 @@ I used top-down modeling to streamline my design process. Top-down modeling is a
 
 ## Gallery
 
-{% include gallery caption="Phone mount with demo handlebar | Vertical position | Horizontal position." %}
+{% include gallery caption="Phone mount with demo handlebar, Vertical position, and Horizontal position." %}
 
 ## 3D Model
 
