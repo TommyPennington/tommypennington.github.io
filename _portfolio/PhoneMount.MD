@@ -2,12 +2,12 @@
 title: "Bicycle Phone Mount"
 excerpt: "Top-Down Modeling Project: Bicycle Phone Mount"
 header:
-  image: assets/img/Syringe Pump Final.jpg
-  teaser: assets/img/Syringe Pump Final.jpg
+  image: assets/img/PhoneMount2.JPG
+  teaser: assets/img/PhoneMount2.JPG
 gallery:
-  - image_path: assets/img/Syringe Pump Render.png
-  - image_path: assets/img/Syringe Pump Final.jpg
-  - image_path: assets/img/Syringe Pump Circuit Schematic.png
+  - image_path: assets/img/PhoneMount2.JPG
+  - image_path: assets/img/PhoneMount1.JPG
+  - image_path: aassets/img/PhoneMount2.JPG
    
 ---
 
@@ -35,7 +35,7 @@ I used top-down modeling to streamline my design process. Top-down modeling is a
 
 ## Gallery
 
-{% include gallery caption="Original 3D render, final product, and circuit schematic." %}
+{% include gallery caption="Phone mount with demo handlebar | Vertical position | Horizontal position." %}
 
 ## 3D Model
 
