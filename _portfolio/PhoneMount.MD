@@ -6,8 +6,8 @@ header:
   teaser: assets/img/FinalPhoneHolderDemo.png
 gallery:
   - image_path: assets/img/FinalPhoneHolderDemo.png
-  - image_path: assets/img/PhoneMount2.JPG
   - image_path: assets/img/PhoneMount1.JPG
+  - image_path: assets/img/PhoneMount2.JPG
    
 ---
 
