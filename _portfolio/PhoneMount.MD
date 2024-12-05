@@ -11,7 +11,7 @@ gallery:
    
 ---
 
-# **Top-Down Modeling: Bicycle Phone Mount** 
+
 
 # **Project Overview**
 
