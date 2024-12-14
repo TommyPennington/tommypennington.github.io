@@ -12,8 +12,6 @@ gallery:
    
 ---
 
-# **Generative Design SLS Truck Hanger** 
-
 ## **Powder Bed Fusion and Generative Design**
 
 The combination of powder bed fusion (PBF) and generative design represents a powerful synergy in advanced manufacturing, particularly evident in aerospace and automotive applications where lightweight, optimized components are mission-critical. The success of this pairing stems from PBF's capability to fabricate the intricate, organic structures that generative design typically produces. Unlike traditional manufacturing methods that often constrain design freedom, PBF can create internal lattices, complex cooling channels, and variable wall thicknesses \- all common features in generatively designed parts. This manufacturing freedom allows for optimized components that wouldn't be possible with many conventional processes like CNC milling (which cannot create internal voids). 
