@@ -48,12 +48,12 @@ The “design space” is defined by a combination of Preserve Geometries and Ob
 <iframe src="https://vanderbilt643.autodesk360.com/shares/public/SH286ddQT78850c0d8a420076f0a92eef089?mode=embed" width="800" height="600" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
 ALSi10Mg Generative Design Assembly
 
-![ALSi10Mg Generative Hanger Render](assets/img/FinalAlRender.png)
+![ALSi10Mg Generative Hanger Render](https://github.com/TommyPennington/tommypennington.github.io/blob/main/assets/img/FinalAlRender.png?raw=true)
 
 <iframe src="https://vanderbilt643.autodesk360.com/shares/public/SH286ddQT78850c0d8a45b708ca865ee4c70?mode=embed" width="800" height="600" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
 Nylon Design Assembly
 
-![Nylon Generative Hanger Render](assets/img/FinalNylonRender.png)
+![Nylon Generative Hanger Render](https://github.com/TommyPennington/tommypennington.github.io/blob/main/assets/img/FinalNylonRender.png?raw=true)
 
 ## **Design Considerations**
 
