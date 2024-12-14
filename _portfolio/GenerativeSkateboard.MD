@@ -2,12 +2,13 @@
 title: "Generative Design Skateboard Hanger"
 excerpt: "Generative Design SLS Truck Hanger with Integrated Motor Mount"
 header:
-  image: assets/img/Mark III.jpg
-  teaser: assets/img/Mark III.jpg
+  image: assets/img/BestView.JPG
+  teaser: assets/img/BestView.JPG
 gallery:
-  - image_path: assets/img/Mark 1.jpg
-  - image_path: assets/img/Mark II.JPG
-  - image_path: assets/img/Mark III.jpg
+  - image_path: assets/img/TopView.JPG
+  - image_path: assets/img/FrontCloseup.JPG
+  - image_path: assets/img/BackView.JPG
+  - image_path: assets/img/BackCloseup.JPG
    
 ---
 
@@ -42,15 +43,19 @@ The “design space” is defined by a combination of Preserve Geometries and Ob
 
 ## Gallery
 
-{% include gallery caption="Original 3D render, final product, and circuit schematic." %}
+{% include gallery caption="Top View, Front Closeup, Back View, and Back Closeup." %}
 
-## 3D Model
+## 3D Models and Renders
 
 <iframe src="https://vanderbilt643.autodesk360.com/shares/public/SH286ddQT78850c0d8a420076f0a92eef089?mode=embed" width="800" height="600" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
 ALSi10Mg Generative Design Assembly
 
+![ALSi10Mg Generative Hanger Render](assets/img/FinalAlRender.png)
+
 <iframe src="https://vanderbilt643.autodesk360.com/shares/public/SH286ddQT78850c0d8a45b708ca865ee4c70?mode=embed" width="800" height="600" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
 Nylon Design Assembly
+
+![Nylon Generative Hanger Render](assets/img/FinalNylonRender.png)
 
 ## **Design Considerations**
 
